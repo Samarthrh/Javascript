@@ -39,6 +39,49 @@ let myFunction = function(){
 }
 console.log(typeof(myFunction))
 
+// ------------------------------------------------------------------------------
+// Stack (Primitives) and Heap (Non-primitive) memory allocation
+
+// Call by Value (Primitives)
+
+console.log()
+
+let myName = "Samarth"
+let anotherName = myName
+
+console.log("Before call by value")
+console.log(myName)
+console.log(anotherName)
+
+console.log()
+
+console.log("After call by value")
+myName = "Satyarth"
+console.log(myName)
+console.log(anotherName)
+
+console.log()
+
+// Call by Reference (Non-primitive)
+
+let userOne = {
+    email : "samarth123@gmail.com",
+    upi : "samarth@ybl",
+    password : "12345"
+}
+
+let userTwo = userOne
+console.log("Before call by reference");
+console.log(userOne)
+console.log(userTwo)
+
+console.log()
+
+console.log("After call by reference");
+userOne.password = "54321"
+console.log(userOne)
+console.log(userTwo)
+
 
 
 
