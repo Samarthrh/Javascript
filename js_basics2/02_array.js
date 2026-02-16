@@ -41,11 +41,4 @@ console.log()
 const score_1 = 100
 const score_2 = 200
 const score_3 = 300
-console.log("Returns a new array : " + Array.of(score_1, score_2, score_3));
-
-
-
-
-
-
- 
+console.log("Returns a new array : " + Array.of(score_1, score_2, score_3)); 
