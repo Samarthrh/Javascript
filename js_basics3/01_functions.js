@@ -75,7 +75,7 @@ handleObject({
    name : "Sam",
    price : 599
 })
-
+console.log();
 // Function with array as parameter
 const myNewArray = [10, 20, "thirty", 40];
 
